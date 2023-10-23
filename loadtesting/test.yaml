@@ -1,0 +1,21 @@
+config:
+  target: 'https://mof7ih1goe.execute-api.us-east-1.amazonaws.com/beta'
+  phases:
+    - duration: 100
+      arrivalRate: 1
+  processor: "./loadtest.js"          
+  defaults:
+    headers:
+      Authorization: 'Bearer <<ENTER YOUR JWT TOKEN HERE>>'
+scenarios:
+  - flow:
+    - function: "generateRandomData"
+    - post:
+        url: "/"
+        json:
+          id: "'{{ id }}'"
+          title: "This is a load test data - #{{ id }}"
+          name: "{{ name }}"
+          width: "{{ wid }}"
+          heigth: "{{ len }}"
+    - log: "Sent POST request to / with {{ wid }}, {{ len }}"
