@@ -4,7 +4,7 @@ The main purpose of this project to test performance of AWS JavaScript SDK when 
 
 I created a simple infrastructure to demonstrates how to leverage AWS PrivateLink when Lambda is deployed in a VPC.
 
-lastly, we performed volume testing using artillery.io and AWS Xray to evaluate the response time when calling DynamoDB putItem using AWS JavaScript SDK.
+You can also perform volume testing using artillery.io and AWS Xray to evaluate the response time when calling DynamoDB putItem using AWS JavaScript SDK.
 
 Setup:
 
@@ -35,9 +35,11 @@ You should get below response
 {"Successfully created item"}
 
 Load testing:
+
 In loadtesting/test.yaml, you can modify the test configuration based on your test case.
 
-install artillery
+first is to install artillery
+
 npm install -g artillery
 
 go to folder loadtesting, and run
