@@ -18,7 +18,7 @@ At this point you can now synthesize the CloudFormation template for this code.
 
 `cdk deploy`
 
-**fter Deploy:**
+**After Deploy:**
 
 Navigate to AWS API Gateway console and test the API with below sample data
 ```
