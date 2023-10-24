@@ -36,7 +36,7 @@ You should get below response
 
 **Load testing:**
 
-In loadtesting/test.yaml, you can modify the test configuration based on your test case.
+In loadtesting/test.yaml, you can modify the API url and test configuration based on your test case.
 
 first is to install artillery
 
