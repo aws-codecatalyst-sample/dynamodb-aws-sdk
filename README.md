@@ -2,9 +2,9 @@
 
 The main purpose of this project to test performance of AWS JavaScript SDK when invoking DynamoDB from Lambda function.
 
-I created a simple infrastructure to demonstrates how to leverage AWS PrivateLink when Lambda is deployed in a VPC.
+I created a simple infrastructure that can also demonstrate how to leverage AWS PrivateLink when Lambda is deployed in a VPC.
 
-You can also perform volume testing using artillery.io and AWS Xray to evaluate the response time when calling DynamoDB putItem using AWS JavaScript SDK.
+You can perform volume testing using artillery.io and AWS Xray to evaluate the response time when calling DynamoDB putItem using AWS JavaScript SDK.
 
 **Setup:**
 
