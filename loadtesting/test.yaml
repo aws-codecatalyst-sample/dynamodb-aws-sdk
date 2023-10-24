@@ -1,5 +1,5 @@
 config:
-  target: 'https://mof7ih1goe.execute-api.us-east-1.amazonaws.com/beta'
+  target: 'https://xxxxxxx.execute-api.us-east-1.amazonaws.com/beta'
   phases:
     - duration: 100
       arrivalRate: 1
