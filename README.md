@@ -46,6 +46,8 @@ go to folder loadtesting, and run
 
 `artillery run test.yaml`
 
+I enabled AWS Xray for Lambda, so you can get performance stats in AWS Xray trace.
+
 **Cleanup:**
 
 Run below script to delete AWS resources created by this sample stack.
